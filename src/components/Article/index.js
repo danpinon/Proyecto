@@ -19,7 +19,7 @@ export default function Article(props) {
         <div>
             <p>{title}</p>
             <p>{description}</p>
-            <img src={imageUrl}/>
+            <img src={imageUrl} alt='fotografia'/>
             <p>{photoAuthor}</p>
         </div>
     )
